@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Helmet Bike Verification",
+    "slug": "helmet-bike-verification",
+    "scheme": "helmetbike",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-router",
+      "expo-camera"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Camera is used to verify helmet and motorcycle before starting work."
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "CAMERA",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.aasimqureshitrue.helmetbikeverification"
+    }
+  }
+}
