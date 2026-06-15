@@ -3,3 +3,8 @@ node_modules
 android
 package-lock.json
 .env
+.expo/
+
+
+
+EXPO_PUBLIC_API_URL=http://192.168.0.198:5000/api
