@@ -19,12 +19,17 @@
       "permissions": [
         "CAMERA",
         "android.permission.CAMERA",
-        "android.permission.RECORD_AUDIO",
-        "CAMERA",
-        "android.permission.CAMERA",
         "android.permission.RECORD_AUDIO"
       ],
       "package": "com.aasimqureshitrue.helmetbikeverification"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f7e4c7de-52d8-42e1-ad96-66ced77d8c4e"
+      }
     }
   }
 }

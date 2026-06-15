@@ -70,13 +70,13 @@ export default function DemandScreen() {
           Choose areas with higher demand to get more orders.
         </Text>
 
-        <Card>
+        {/* <Card>
           <View style={styles.legendRow}>
             <Text style={styles.legend}>🔥 High Demand</Text>
             <Text style={styles.legend}>🟡 Medium Demand</Text>
             <Text style={styles.legend}>⚪ Low Demand</Text>
           </View>
-        </Card>
+        </Card> */}
 
         {zones.map((zone) => (
           <Card key={zone.area}>
@@ -123,25 +123,25 @@ const styles = StyleSheet.create({
     padding: 18,
   },
   scroll: {
-    gap: 14,
+    gap: 10,
     paddingBottom: 24,
   },
   title: {
-    fontSize: 26,
-    fontWeight: '900',
+    fontSize: 20,
+    fontWeight: '700',
     color: colors.text,
   },
   subtitle: {
     color: colors.muted,
-    fontSize: 14,
-    lineHeight: 21,
+    fontSize: 10,
+    lineHeight: 11,
   },
   legendRow: {
     gap: 8,
   },
   legend: {
-    fontSize: 14,
-    fontWeight: '800',
+    fontSize: 11,
+    fontWeight: '700',
     color: colors.text,
   },
   zoneHeader: {
@@ -150,18 +150,18 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   area: {
-    fontSize: 20,
-    fontWeight: '900',
+    fontSize: 15,
+    fontWeight: '600',
     color: colors.text,
   },
   demand: {
     marginTop: 4,
-    fontSize: 14,
-    fontWeight: '900',
+    fontSize: 10,
+    fontWeight: '800',
   },
   badge: {
-    width: 62,
-    height: 62,
+    width: 50,
+    height: 50,
     borderRadius: 31,
     backgroundColor: '#fff',
     borderWidth: 1,
@@ -170,20 +170,20 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   badgeText: {
-    fontSize: 18,
-    fontWeight: '900',
+    fontSize: 10,
+    fontWeight: '700',
     color: colors.primary,
   },
   badgeLabel: {
     fontSize: 10,
-    color: colors.muted,
+    color: colors.success,
     fontWeight: '700',
   },
   infoRow: {
     marginTop: 12,
     flexDirection: 'row',
     justifyContent: 'space-between',
-    gap: 12,
+    gap: 8,
     borderTopWidth: 1,
     borderTopColor: colors.border,
     paddingTop: 10,
@@ -191,12 +191,12 @@ const styles = StyleSheet.create({
   infoLabel: {
     color: colors.muted,
     fontWeight: '700',
-    fontSize: 12,
+    fontSize: 10,
   },
   infoValue: {
     color: colors.text,
     fontWeight: '900',
-    fontSize: 12,
+    fontSize: 10,
     textAlign: 'right',
   },
 });

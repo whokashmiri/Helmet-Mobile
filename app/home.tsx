@@ -80,9 +80,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.bg,
-    padding: 20,
+    padding: 15,
     justifyContent: 'center',
-    gap: 16,
+    gap: 10,
   },
 
   header: {
@@ -91,13 +91,13 @@ const styles = StyleSheet.create({
   },
 
   emoji: {
-    fontSize: 60,
+    fontSize: 80,
     marginBottom: 10,
   },
 
   title: {
-    fontSize: 28,
-    fontWeight: '900',
+    fontSize: 15,
+    fontWeight: '500',
     color: colors.text,
   },
 
@@ -129,17 +129,18 @@ const styles = StyleSheet.create({
   },
 
   name: {
-    fontSize: 18,
-    fontWeight: '900',
+    fontSize: 12,
+    fontWeight: '500',
     color: colors.text,
   },
 
   info: {
     color: colors.muted,
     marginTop: 2,
+    fontSize: 8,
   },
 
   actions: {
-    gap: 12,
+    gap: 10,
   },
 });

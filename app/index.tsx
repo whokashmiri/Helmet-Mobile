@@ -73,8 +73,8 @@ export default function LoginScreen() {
             value={id}
             onChangeText={setId}
             placeholder="Enter ID"
-            placeholderTextColor={colors.muted}
-            style={styles.input}
+            placeholderTextColor={colors.muted }
+            style={styles.input }
             autoCapitalize="none"
           />
 
@@ -134,14 +134,14 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    fontSize: 28,
-    fontWeight: '900',
+    fontSize: 20,
+    fontWeight: '500',
     color: colors.text,
     textAlign: 'center',
   },
 
   subtitle: {
-    fontSize: 15,
+    fontSize: 12,
     color: colors.muted,
     textAlign: 'center',
     marginTop: 8,
@@ -153,32 +153,32 @@ const styles = StyleSheet.create({
   },
 
   label: {
-    fontSize: 14,
-    fontWeight: '700',
+    fontSize: 10,
+    fontWeight: '500',
     color: colors.text,
   },
 
   input: {
-    height: 54,
+    height: 50,
     borderWidth: 1,
     borderColor: colors.border,
     borderRadius: 16,
     paddingHorizontal: 16,
     backgroundColor: '#FFF',
     color: colors.text,
-    fontSize: 16,
+    fontSize: 10,
   },
 
   demoTitle: {
-    fontSize: 16,
-    fontWeight: '800',
+    fontSize: 10,
+    fontWeight: '500',
     color: colors.text,
     marginBottom: 8,
   },
 
   demoText: {
     color: colors.muted,
-    fontSize: 14,
+    fontSize: 10,
     lineHeight: 22,
   },
 });
