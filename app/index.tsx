@@ -110,6 +110,9 @@ export default function LoginScreen() {
           Password: {DEMO_PASSWORD}
         </Text>
       </Card>
+
+
+      
     </SafeAreaView>
   );
 }
